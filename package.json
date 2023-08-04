@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start":"node index.js",
-    "heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm install --prefix task-manager-frontend && npm run build --prefix task-manager-frontend",
+    "heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm install --prefix task-manager-frontend && npm run build --prefix task-manager-frontend"
   },
   "keywords": [],
   "author": "",
