@@ -3,10 +3,6 @@ const express = require('express');
 const router = express.Router();
 const Task = require('../models/task');
 
-// Create a new task
-router.get('/', async (req, res) => {
-    res.send("Hello world from ser");
-});
 router.post('/tasks', async (req, res) => {
   try {
     const task = new Task(req.body);
